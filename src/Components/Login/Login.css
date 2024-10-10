@@ -1,0 +1,60 @@
+.login-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; 
+  min-height: 100vh; 
+  box-sizing: border-box; 
+  background-image: url("file:///C:/Users/kathy/Downloads/Design%20sem%20nome%20(4)%20(1).png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.login-section h3 {
+  font-size: 28px; /* Aumentado para melhor visibilidade */
+  color: #333;
+  margin-bottom: 30px; /* Aumentado para mais espaçamento */
+}
+
+.login-section form {
+  width: 100%;
+  max-width: 350px; /* Aumentado para um campo de entrada mais largo */
+}
+
+.login-section input {
+  width: 100%;
+  padding: 12px; /* Aumentado para conforto ao digitar */
+  margin-bottom: 20px; /* Aumentado para espaçamento adequado */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s; /* Transição suave ao focar */
+}
+
+.login-section input:focus {
+  border-color: #007bff; /* Mudança na borda ao focar */
+  outline: none; /* Remover o contorno padrão */
+}
+
+.login-section button[type="submit"] {
+  width: 100%;
+  padding: 12px; /* Aumentado para um botão mais confortável */
+  background-color: #246e489f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Transição para efeito de hover */
+}
+
+.login-section button[type="submit"]:hover {
+  background-color: #2e6844; /* Cor de fundo ao passar o mouse */
+  transform: translateY(-2px); /* Leve movimento para cima no hover */
+}
+
+.login-section button[type="submit"]:active {
+  transform: translateY(0); /* Retorna ao lugar ao clicar */
+}

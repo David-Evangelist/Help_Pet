@@ -1,0 +1,8 @@
+/* Button.css */
+.linkButton {
+    background-color: #246e4878;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,112 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    min-height: 100vh; 
+    box-sizing: border-box; 
+    background-image: url("file:///C:/Users/kathy/Downloads/Design%20sem%20nome%20(4)%20(1).png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     /* Centraliza verticalmente, se necessário */
+    width: 10%;             /* Garante que o contêiner ocupe a largura total */
+    margin-top: 5px;        /* Adiciona espaço acima do botão, se necessário */
+  }
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; 
+    margin-bottom: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    align-items: center; 
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000; 
+    transition: color 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color:#40bfbc;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 30px; 
+    width: 100%;
+}
+
+.welcome-section h2 {
+    font-size: 28px; 
+    color: #333; 
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 26px;
+    color: #111111;
+    margin: 0 0 20px;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.cta-buttons button {
+    padding: 12px 24px;
+    background-color:#0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.cta-buttons button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.cta-buttons button:active {
+    transform: translateY(0);
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        gap: 15px; /* Diminui o espaçamento entre os links */
+    }
+
+    .welcome-section h2 {
+        font-size: 24px;
+    }
+
+    .cta-buttons button {
+        width: 100%;
+    }
+}
